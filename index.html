@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Hacking en RF</title>
+
+	<meta name="description" content="Hacking en RadioFrecuencia">
+	<meta name="author" content="Teresa Algarra"">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/blood.css" id="theme">
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<div class="slides">
+
+			<section data-background="https://media.giphy.com/media/SEGbHG0PfVOCY/giphy.gif">
+				<h2>Robando coches al estilo de James Bond</h2>
+				<h4>Hacking en radiofrecuencia</h4>
+			</section>
+
+			<section>
+				<section>
+					<h2>Introduciendo</h2>
+				</section>
+  			<section>
+					<h3>De teleco al hacking</h3>
+					Los puntos de vista
+				</section>
+				<section data-background="https://media.giphy.com/media/citBl9yPwnUOs/giphy.gif">
+				</section>
+				<section data-background="https://media.giphy.com/media/nCMUAj0L7b5Kg/giphy.gif">
+				</section>
+				<section>
+					<h3>Geek & Tech Girls</h3>
+					Trabajando juntas por la tecnología desde la sororidad
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>¿Cómo funciona el mando de tu coche?</h2>
+					Todos abrimos nuestro coche con un <a href="https://en.wikipedia.org/wiki/Remote_keyless_system">mando a distancia</a>.
+				</section>
+				<section>
+					<h3>RKS</h3>
+					<h5>Remote Keyless System</h5>
+					Señales de radio a 433.92 MHz (Europa y Asia) ó 315 MHz (Norte América).
+				</section>
+				<section>
+					¿Alguna vez te has planteado si esa comunicación es segura?
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>SDR</h2>
+					<h3>Software-Defined Ratio</h3>
+					Una <a href="https://en.wikipedia.org/wiki/Software-defined_radio">SDR</a> sirve para enviar y recibir ondas de radio.
+				</section>
+  			<section>
+					<h3>MySpace Worm:</h3>
+					<br>
+					El virus que más rápido se ha expandido de la historia.
+				</section>
+				<section>
+					<h3>RollJam</h3>
+				</section>
+
+			</section>
+
+			<section>
+				<section>
+					<h2>Samy Kamkar</h2>
+				</section>
+  			<section>
+					<h3>MySpace Worm:</h3>
+					<br>
+					El virus que más rápido se ha expandido de la historia.
+				</section>
+				<section>
+					<h3>RollJam</h3>
+				</section>
+				<section data-background="https://media.giphy.com/media/citBl9yPwnUOs/giphy.gif">
+				</section>
+			</section>
+
+
+		</div>
+
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies: [
+				{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true },
+				{ src: 'plugin/notes/notes.js', async: true }
+			]
+		});
+
+	</script>
+
+</body>
+</html>
