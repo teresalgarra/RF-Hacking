@@ -8,6 +8,20 @@
 /*********************************************
  * RESET STYLES
  *********************************************/
+
+ .circular {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background-repeat: no-repeat;
+  background-origin:content-box;
+  background-position: center;
+  /*background-attachment: fixed;*/
+  background-size: 100% 100%;
+  }
+
 html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal iframe,
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal blockquote, .reveal pre,
 .reveal a, .reveal abbr, .reveal acronym, .reveal address, .reveal big, .reveal cite, .reveal code,
